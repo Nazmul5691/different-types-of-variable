@@ -12,3 +12,6 @@ console.log(typeof isShow);
 
 var age = 22;
 console.log(typeof age);
+
+const a = isNaN('dfasdh')
+console.log(a);
