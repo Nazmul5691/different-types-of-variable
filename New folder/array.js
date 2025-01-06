@@ -8,6 +8,15 @@ friends[2] = 100;
 const place = ['cox bazar', 'sondarban', 'bandorban']
 place.push('madargong')
 place.push('ptengga', 'quakata')
-console.log(place);
+// console.log(place);
 place.pop();
-console.log(place);
+// console.log(place);
+
+const books = ['c++', 'python', 'java', 'javascript']
+const available = books.includes('javascript')
+if(available == true){
+    console.log('Yes, the book is available');
+}
+else{
+    console.log('Opps, Not available');
+}
